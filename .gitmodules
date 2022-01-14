@@ -1,0 +1,3 @@
+[submodule "deps/krohnkite"]
+	path = deps/krohnkite
+	url = https://github.com/esjeon/krohnkite.git

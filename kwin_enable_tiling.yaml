@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  name: Enable Tiling for KWin with Krohnkite
+  tasks:
+    - name: pull krohnkite repo
+      ansible.builtin.git:
+        shell: git submodule update --init --recursive && git submodule update --recursive deps/krohnkite
+      
